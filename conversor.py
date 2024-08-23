@@ -20,8 +20,8 @@ class PDFHandler:
             file.write(content)
 
 def main():
-    pdf_path = r'C:\Users\aluno\Downloads\PDF-to-Text-Converter-main\PDF-to-Text-Converter-main\caderno-cederj-2020-1.pdf'
-    output_path = r'C:\Users\aluno\Downloads\PDF-to-Text-Converter-main\PDF-to-Text-Converter-main\resultado.txt'
+    pdf_path = r'C:\Users\aluno\Downloads\Conversor-de-PDF-para-txt-main\Conversor-de-PDF-para-txt\caderno-cederj-2020-1.pdf'
+    output_path = r'C:\Users\aluno\Downloads\Conversor-de-PDF-para-txt-main\Conversor-de-PDF-para-txt\resultado.txt'
     
     pdf_handler = PDFHandler(pdf_path, output_path)
     content = pdf_handler.read_pdf()
